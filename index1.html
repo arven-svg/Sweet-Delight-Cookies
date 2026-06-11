@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sweetdelight.cookies</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .social-btn{
+    display:inline-block;
+    background:white;
+    color:#6d4c41;
+    text-decoration:none;
+    padding:14px 28px;
+    margin:10px;
+    border-radius:30px;
+    font-weight:600;
+    transition:0.3s;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.social-btn:hover{
+    transform:translateY(-3px);
+    background:#f5f5f5;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fffaf5;
+    color:#4e342e;
+}
+
+header{
+    background:linear-gradient(135deg,#6d4c41,#8d6e63);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+    opacity:.9;
+}
+
+.hero-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 25px;
+    background:white;
+    color:#6d4c41;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    transform:scale(1.05);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:40px;
+    color:#6d4c41;
+}
+
+.product{
+    padding:80px 0;
+}
+
+.product-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.product-card img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:30px;
+}
+
+.product-content h2{
+    font-size:2rem;
+    color:#5d4037;
+}
+
+.price{
+    color:#8d6e63;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.tagline{
+    font-style:italic;
+    font-size:1.1rem;
+    color:#795548;
+    margin-bottom:20px;
+}
+
+.buy-btn{
+    display:inline-block;
+    background:#6d4c41;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:30px;
+    margin-top:20px;
+    transition:.3s;
+}
+
+.buy-btn:hover{
+    background:#4e342e;
+}
+
+.about{
+    padding:80px 0;
+    background:#f8f1eb;
+}
+
+.about-box{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    line-height:1.9;
+}
+
+.features{
+    padding:80px 0;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.feature{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.feature h3{
+    margin-bottom:10px;
+    color:#6d4c41;
+}
+
+.contact{
+    padding:80px 0;
+    background:#6d4c41;
+    color:white;
+    text-align:center;
+}
+
+.social-box{
+    margin-top:30px;
+}
+
+.social{
+    background:white;
+    color:#6d4c41;
+    margin:10px;
+    display:inline-block;
+    padding:12px 20px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+footer{
+    background:#4e342e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.2rem;
+    }
+
+    .product-card img{
+        height:300px;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sweet Delight Cookies</h1>
+    <p>Sweet, Crunchy, and Creamy in Every Bite!</p>
+    <a href="#produk" class="hero-btn">lihat produk</a>
+</header>
+
+<section class="product" id="produk">
+    <div class="container">
+        <h2 class="section-title">Produk Unggulan</h2>
+
+        <div class="product-card">
+
+            <!-- GANTI LINK FOTO INI DENGAN FOTO PRODUKMU -->
+            <img src="cookie.jpg" alt="Cookies Ice Cream Delight">
+
+            <div class="product-content">
+                <h2>COOKIES ICE CREAM DELIGHT</h2>
+
+                <div class="price">Rp15.000</div>
+
+                <p class="tagline">
+                    Sweet, Crunchy, and Creamy in Every Bite!
+                </p>
+
+                <p>
+                    Perpaduan sempurna antara cookies yang renyah dan es krim yang lembut
+                    menciptakan sensasi rasa yang manis, creamy, dan menyegarkan dalam
+                    setiap gigitan. Cocok dinikmati kapan saja sebagai teman santai,
+                    hadiah kecil untuk diri sendiri, maupun camilan favorit bersama teman
+                    dan keluarga.
+                </p>
+
+                <a href="https://wa.me/6281999959960?text=Halo%20saya%20ingin%20memesan%20Cookies%20Ice%20Cream%20Delight" target="_blank" class="buy-btn">
+    Pesan Sekarang
+</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+
+        <h2 class="section-title">Tentang Kami</h2>
+
+        <div class="about-box">
+
+            <p>
+                <strong>Cookies Ice Cream Delight</strong> merupakan usaha kuliner yang
+                bergerak di bidang makanan penutup (dessert) dengan menawarkan produk
+                berupa kombinasi cookies dan ice cream.
+            </p>
+
+            <br>
+
+            <p>
+                Produk ini dibuat menggunakan bahan-bahan berkualitas sehingga
+                menghasilkan rasa yang lezat, tekstur yang unik, serta tampilan yang
+                menarik. Kami berkomitmen untuk memberikan produk terbaik yang dapat
+                dinikmati oleh berbagai kalangan, mulai dari anak-anak hingga orang dewasa.
+            </p>
+
+            <br>
+
+            <p>
+                Kami percaya bahwa makanan penutup bukan hanya sekadar camilan,
+                tetapi juga pengalaman yang dapat menghadirkan kebahagiaan.
+                Oleh karena itu, setiap produk dibuat dengan penuh perhatian
+                terhadap kualitas, rasa, dan kepuasan pelanggan.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+
+        <h2>Temukan Kami di Media Sosial</h2>
+
+        <p>
+            Ikuti akun kami untuk mendapatkan informasi promo,
+            menu terbaru, dan berbagai update menarik lainnya.
+        </p>
+
+        <div class="social-box">
+
+            <a href="https://www.instagram.com/sweetdelight.cookies____?igsh=ajdhazF6eHl3OXdv" target="_blank" class="social-btn">
+                📷 Instagram
+            </a>
+
+            <a href="https://www.tiktok.com/@sweetdelight.cook?_r=1&_t=ZS-977dFFEElpl" target="_blank" class="social-btn">
+                🎵 TikTok
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 sweetdelight.cookies | Sweet, Crunchy, and Creamy in Every Bite!
+</footer>
+
+</body>
+</html>
